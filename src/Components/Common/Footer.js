@@ -3,10 +3,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <footer>
                           <footer class="develop-FooterSection-root ">
                    <div class="container develop-MuiContainer-root develop-MuiContainer-fixed develop-MuiContainer-maxWidthLg">
-                       <div class="d-flex develop-MuiGrid-root develop-FooterSection-footerInfo develop-MuiGrid-container">
+                       <div class="row develop-MuiGrid-root develop-FooterSection-footerInfo develop-MuiGrid-container">
                            <div class="col-12 col-md-3 develop-MuiGrid-root develop-MuiGrid-container develop-MuiGrid-item develop-MuiGrid-grid-xs-6 develop-MuiGrid-grid-sm-3">
                                <div class="develop-MuiGrid-root">
                                    <p class="develop-FooterSection-content develop-FooterSection-contentBig">PAYMENT SOLUTIONS</p>
@@ -41,7 +40,6 @@ const Footer = () => {
                        <p class="develop-MuiTypography-root develop-FooterSection-copyright">©Copyright M_Service 2021</p>
                    </div>
                </footer>
-        </footer>
     );
 };
 
